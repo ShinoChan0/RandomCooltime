@@ -18,10 +18,10 @@ const App = () => {
           15<br />
           45<br />
           75<br />
-          105<br />
+          95<br />
+          115<br />
           135<br />
-          165<br />
-          195<br />
+          155<br />
         </div>
         <textarea
           value={inputText}
