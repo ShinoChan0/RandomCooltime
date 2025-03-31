@@ -22,12 +22,13 @@ const App = () => {
           115<br />
           135<br />
           155<br />
+          175<br />
         </div>
         <textarea
           value={inputText}
           onChange={(e) => setInputText(e.target.value)}
           placeholder="ここにテキストを入力してください（改行ごとに処理されます）"
-          rows="5"
+          rows="6"
           className="w-full border-2 text-lg border-gray-300 rounded-lg p-2"
         />
       </div>
@@ -47,11 +48,12 @@ const App = () => {
           115<br />
           135<br />
           155<br />
+          175<br />
         </div>
         <textarea
           value={shuffledText}
           readOnly
-          rows="5"
+          rows="6"
           className="w-full border-2 text-lg border-gray-300 rounded-lg p-2"
         />
       </div>
