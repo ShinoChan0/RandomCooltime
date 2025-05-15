@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const App = () => {
-  const [inputText, setInputText] = useState("豪華客船強盗 yachtheist\n飛行機強盗 carheist\nアーティファクト強盗 artifactheist\nオイルリグ強盗 oilrigheist\nユニオン銀行強盗 unionheist\n美術館強盗 artgalleryheist\n金庫強盗 vaultheist\n飛行機墜落強盗 skyheist")
+  const [inputText, setInputText] = useState("豪華客船強盗 yachtheist\n飛行機強盗 carheist\nアーティファクト強盗 artifactheist\nオイルリグ強盗 oilrigheist\nユニオン銀行強盗 unionheist\n美術館強盗 artgalleryheist\n金庫強盗 vaultheist\nメイズバンク強盗 mazeheist")
   const [shuffledText, setShuffledText] = useState("")
 
   const shuffleLines = () => {
